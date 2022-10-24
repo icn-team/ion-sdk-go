@@ -7,8 +7,8 @@ import (
 	"time"
 
 	ilog "github.com/pion/ion-log"
-	sdk "github.com/pion/ion-sdk-go"
-	"github.com/pion/webrtc/v3"
+	sdk "github.com/icn-team/ion-sdk-go"
+	"github.com/icn-team/webrtc/v3"
 
 	"os/exec"
 

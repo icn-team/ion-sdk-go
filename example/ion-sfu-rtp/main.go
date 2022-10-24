@@ -12,9 +12,9 @@ import (
 	"os/signal"
 
 	ilog "github.com/pion/ion-log"
-	sdk "github.com/pion/ion-sdk-go"
+	sdk "github.com/icn-team/ion-sdk-go"
 	rtp "github.com/pion/rtp"
-	"github.com/pion/webrtc/v3"
+	"github.com/icn-team/webrtc/v3"
 )
 
 // media info

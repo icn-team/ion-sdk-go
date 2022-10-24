@@ -8,7 +8,7 @@ package biz
 
 import (
 	proto "github.com/golang/protobuf/proto"
-	ion "github.com/pion/ion-sdk-go/pkg/grpc/ion"
+	ion "github.com/icn-team/ion-sdk-go/pkg/grpc/ion"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
