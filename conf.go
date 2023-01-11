@@ -22,6 +22,11 @@ func (j JoinConfig) SetNoAutoSubscribe() *JoinConfig {
 	return &j
 }
 
+func (j JoinConfig) SetSecurityTransportType(securityTransportType string) *JoinConfig {
+	j["SecurityTransportType"] = securityTransportType
+	return &j
+}
+
 func SetRelay(j JoinConfig) *JoinConfig {
 	j["Relay"] = "true"
 	return &j
